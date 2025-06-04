@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 120vh;
+    background:rgb(14, 14, 14);
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 0;
+    color:rgb(156, 101, 50);
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.box{
+    width: 90%;
+    max-width: 410px;
+    background:linear-gradient(45deg,black,grey);
+    color: #ffff;
+    margin: 30px auto 0;
+    border-radius: 35px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background:linear-gradient(27deg,rgb(71, 57, 57),rgb(225, 183, 94));
+    color: white;
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 15px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background:linear-gradient(27deg,rgb(71, 57, 57),rgb(225, 183, 94));
+    height: 50px;
+    width: 50px;
+    color:black;
+    border-radius: 50%;   
+}
+img{
+    height: 250px;
+    margin-top: 20px;
+}
+.weather h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+.weather h2{
+    font-size: 35px;
+    font-weight: 350;
+    margin-top: -10px;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 60px;
+}
+.col{
+ font-size: 25px;
+ font-weight: 400;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
